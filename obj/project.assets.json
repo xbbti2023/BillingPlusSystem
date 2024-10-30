@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\ahmed\\Desktop\\sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-main\\AspnetCoreMvcFull.csproj",
+      "projectUniqueName": "C:\\Users\\ahmed\\Desktop\\BillingPlusSystem\\AspnetCoreMvcFull.csproj",
       "projectName": "AspnetCoreMvcFull",
-      "projectPath": "C:\\Users\\ahmed\\Desktop\\sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-main\\AspnetCoreMvcFull.csproj",
+      "projectPath": "C:\\Users\\ahmed\\Desktop\\BillingPlusSystem\\AspnetCoreMvcFull.csproj",
       "packagesPath": "C:\\Users\\ahmed\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\ahmed\\Desktop\\sneat-bootstrap-html-aspnet-core-mvc-admin-template-free-main\\obj\\",
+      "outputPath": "C:\\Users\\ahmed\\Desktop\\BillingPlusSystem\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
