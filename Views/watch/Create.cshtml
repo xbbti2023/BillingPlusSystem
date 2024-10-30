@@ -1,0 +1,27 @@
+@using AspnetCoreMvcFull.Models.ViewModels
+@{
+    ViewData["Title"] = "watch registration";
+    ViewData["isNavbar"] = false;
+    ViewData["navbarType"] = "layout-navbar-hidden";
+}
+@section PageScripts {
+    <script src="~/js/form-basic-inputs.js"></script>
+}
+@model watchtViewModel
+<h1>Register Watch Info</h1>
+<form method="post" asp-action="Create" asp-controller="watch">
+    <div class="card-body">
+        <div class="mt-2">
+        <label>Watch Name</label>
+        <input type="text" class="form-control" asp-for="watchname" />
+        <span asp-validation-for="watchname" class="text-danger"></span>
+    </div>
+    <div class="mt-2">
+        <label>Describtion</label>
+        <input type="text" class="form-control" asp-for="descr" />
+    </div>
+    <div class="mt-2">
+        <button type="submit" style="float:left" class="btn btn-success">Save</button>
+    </div>
+    </div>
+</form>
