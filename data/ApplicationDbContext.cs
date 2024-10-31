@@ -12,6 +12,7 @@ namespace AspnetCoreMvcFull.Data
 
         public DbSet<watch> watches { get; set; }
     public DbSet<branch> branches { get; set; }
+    public DbSet<zone> zones { get; set; }
 
   }
 }

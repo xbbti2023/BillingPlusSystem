@@ -4,16 +4,16 @@
 *@
 @{
 }
-@model watch
+@model branch
 <h1>Welcom to Tabaarak worshop 2024</h1>
-<form method="post" asp-action="Edit" asp-controller="watch">
+<form method="post" asp-action="Edit" asp-controller="branch">
 
     <input type="hidden" class="form-control" asp-for="Id" />
 
     <div class="mt-2">
         <label>Subject</label>
-        <input type="text" class="form-control" asp-for="watchname" />
-        <span asp-validation-for="watchname" class="text-danger"></span>
+        <input type="text" class="form-control" asp-for="branchname" />
+        <span asp-validation-for="branchname" class="text-danger"></span>
     </div>
     <div class="mt-2">
         <label>Remark</label>

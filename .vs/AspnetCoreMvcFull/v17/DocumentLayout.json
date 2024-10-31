@@ -3,20 +3,76 @@
   "WorkspaceRootPath": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|c:\\users\\ahmed\\desktop\\new folder (2)\\billingplussystem\\controllers\\branchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|solutionrelative:controllers\\branchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|c:\\users\\ahmed\\desktop\\new folder (2)\\billingplussystem\\views\\branch\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|solutionrelative:views\\branch\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|c:\\users\\ahmed\\desktop\\new folder (2)\\billingplussystem\\views\\watch\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|solutionrelative:views\\watch\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|c:\\users\\ahmed\\desktop\\new folder (2)\\billingplussystem\\views\\branch\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|solutionrelative:views\\branch\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|c:\\users\\ahmed\\desktop\\new folder (2)\\billingplussystem\\controllers\\branchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|solutionrelative:controllers\\branchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|c:\\users\\ahmed\\desktop\\new folder (2)\\billingplussystem\\views\\branch\\view.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|solutionrelative:views\\branch\\view.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|c:\\users\\ahmed\\desktop\\new folder (2)\\billingplussystem\\views\\watch\\view.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|solutionrelative:views\\watch\\view.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|c:\\users\\ahmed\\desktop\\new folder (2)\\billingplussystem\\controllers\\watchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|solutionrelative:controllers\\watchcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
+      "AbsoluteMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|c:\\users\\ahmed\\desktop\\new folder (2)\\billingplussystem\\views\\watch\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|solutionrelative:views\\watch\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|c:\\users\\ahmed\\desktop\\new folder (2)\\billingplussystem\\models\\viewmodels\\watchtviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|solutionrelative:models\\viewmodels\\watchtviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|c:\\users\\ahmed\\desktop\\new folder (2)\\billingplussystem\\views\\shared\\sections\\menu\\_verticalmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|solutionrelative:views\\shared\\sections\\menu\\_verticalmenu.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|c:\\users\\ahmed\\desktop\\new folder (2)\\billingplussystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|c:\\users\\ahmed\\desktop\\new folder (2)\\billingplussystem\\controllers\\zonecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|solutionrelative:controllers\\zonecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|c:\\users\\ahmed\\desktop\\new folder (2)\\billingplussystem\\views\\zone\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|solutionrelative:views\\zone\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|c:\\users\\ahmed\\desktop\\new folder (2)\\billingplussystem\\models\\entities\\zone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|solutionrelative:models\\entities\\zone.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|c:\\users\\ahmed\\desktop\\new folder (2)\\billingplussystem\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|c:\\users\\ahmed\\desktop\\new folder (2)\\billingplussystem\\models\\viewmodels\\zoneviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|solutionrelative:models\\viewmodels\\zoneviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|c:\\users\\ahmed\\desktop\\new folder (2)\\billingplussystem\\models\\viewmodels\\branchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|solutionrelative:models\\viewmodels\\branchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|c:\\users\\ahmed\\desktop\\new folder (2)\\billingplussystem\\models\\entities\\watch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|solutionrelative:models\\entities\\watch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|c:\\users\\ahmed\\desktop\\new folder (2)\\billingplussystem\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
@@ -27,30 +83,6 @@
       "RelativeMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|solutionrelative:models\\entities\\branch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|c:\\users\\ahmed\\desktop\\new folder (2)\\billingplussystem\\views\\branch\\view.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|solutionrelative:views\\branch\\view.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|c:\\users\\ahmed\\desktop\\new folder (2)\\billingplussystem\\models\\viewmodels\\watchtviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|solutionrelative:models\\viewmodels\\watchtviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|c:\\users\\ahmed\\desktop\\new folder (2)\\billingplussystem\\views\\watch\\view.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|solutionrelative:views\\watch\\view.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|c:\\users\\ahmed\\desktop\\new folder (2)\\billingplussystem\\models\\viewmodels\\branchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|solutionrelative:models\\viewmodels\\branchviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|c:\\users\\ahmed\\desktop\\new folder (2)\\billingplussystem\\views\\watch\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|solutionrelative:views\\watch\\create.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|c:\\users\\ahmed\\desktop\\new folder (2)\\billingplussystem\\data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|solutionrelative:data\\applicationdbcontext.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|c:\\users\\ahmed\\desktop\\new folder (2)\\billingplussystem\\package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
       "RelativeMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|solutionrelative:package.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
     },
@@ -58,16 +90,8 @@
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ahmed\\Desktop\\BillingPlusSystem\\Migrations\\20241031064716_Initial Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|c:\\users\\ahmed\\desktop\\new folder (2)\\billingplussystem\\models\\entities\\watch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|solutionrelative:models\\entities\\watch.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
       "AbsoluteMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|c:\\users\\ahmed\\desktop\\new folder (2)\\billingplussystem\\controllers\\uicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|solutionrelative:controllers\\uicontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|c:\\users\\ahmed\\desktop\\new folder (2)\\billingplussystem\\views\\watch\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|solutionrelative:views\\watch\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|C:\\Users\\ahmed\\Desktop\\BillingPlusSystem\\Migrations\\20241031052914_Initial Migration.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
@@ -83,10 +107,6 @@
     {
       "AbsoluteMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|c:\\users\\ahmed\\desktop\\new folder (2)\\billingplussystem\\controllers\\layoutexamplescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|solutionrelative:controllers\\layoutexamplescontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|c:\\users\\ahmed\\desktop\\new folder (2)\\billingplussystem\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
       "AbsoluteMoniker": "D:0:0:{B0669AA4-51EF-43CE-9DA1-15DC79CF979D}|AspnetCoreMvcFull.csproj|c:\\users\\ahmed\\desktop\\new folder (2)\\billingplussystem\\build-config.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
@@ -200,7 +220,7 @@
           "Children": [
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
               "Title": "watchtViewModel.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Models\\ViewModels\\watchtViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ViewModels\\watchtViewModel.cs",
@@ -209,17 +229,18 @@
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T11:47:11.954Z",
-              "IsPinned": true
+              "IsPinned": true,
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 3,
+              "DocumentIndex": 9,
               "Title": "_VerticalMenu.cshtml",
               "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\Shared\\Sections\\Menu\\_VerticalMenu.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Sections\\Menu\\_VerticalMenu.cshtml",
               "ToolTip": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\Shared\\Sections\\Menu\\_VerticalMenu.cshtml",
               "RelativeToolTip": "Views\\Shared\\Sections\\Menu\\_VerticalMenu.cshtml",
-              "ViewState": "AgIAACkAAAAAAAAAAAAAACwAAAAUAAAAAAAAAA==",
+              "ViewState": "AgIAAC0AAAAAMzMzMzMLwDsAAAA9AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-30T09:28:42.364Z",
               "IsPinned": true,
@@ -227,166 +248,195 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
-              "Title": "appsettings.json",
-              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\appsettings.json",
-              "RelativeDocumentMoniker": "appsettings.json",
-              "ToolTip": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\appsettings.json",
-              "RelativeToolTip": "appsettings.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-30T11:56:04.632Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "watchController.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Controllers\\watchController.cs",
-              "RelativeDocumentMoniker": "Controllers\\watchController.cs",
-              "ToolTip": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Controllers\\watchController.cs",
-              "RelativeToolTip": "Controllers\\watchController.cs",
-              "ViewState": "AgIAACYAAAAA9P/////vvzIAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T11:36:28.45Z",
-              "EditorCaption": ""
-            },
-            {
-              "$type": "Document",
               "DocumentIndex": 1,
-              "Title": "branchController.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Controllers\\branchController.cs",
-              "RelativeDocumentMoniker": "Controllers\\branchController.cs",
-              "ToolTip": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Controllers\\branchController.cs",
-              "RelativeToolTip": "Controllers\\branchController.cs",
-              "ViewState": "AgIAACQAAAAAzMzMzMwMwDIAAAAoAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T06:42:34.332Z",
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\branch\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\branch\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\branch\\Edit.cshtml*",
+              "RelativeToolTip": "Views\\branch\\Edit.cshtml*",
+              "ViewState": "AgIAAAQAAAAAMzMzMzMLwAgAAAA8AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T12:52:31.295Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 0,
+              "DocumentIndex": 3,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\branch\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\branch\\Create.cshtml",
-              "ToolTip": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\branch\\Create.cshtml",
-              "RelativeToolTip": "Views\\branch\\Create.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAAaAAAAAAAAAA==",
+              "ToolTip": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\branch\\Create.cshtml*",
+              "RelativeToolTip": "Views\\branch\\Create.cshtml*",
+              "ViewState": "AgIAABAAAABAMzMzMzMrwBgAAAA4AAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2024-10-31T06:51:50.999Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 8,
-              "Title": "view.cshtml",
-              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\watch\\view.cshtml",
-              "RelativeDocumentMoniker": "Views\\watch\\view.cshtml",
-              "ToolTip": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\watch\\view.cshtml",
-              "RelativeToolTip": "Views\\watch\\view.cshtml",
-              "ViewState": "AgIAABEAAAAAAAAAAAAowCQAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T05:34:52.27Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "branch.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Models\\Entities\\branch.cs",
-              "RelativeDocumentMoniker": "Models\\Entities\\branch.cs",
-              "ToolTip": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Models\\Entities\\branch.cs",
-              "RelativeToolTip": "Models\\Entities\\branch.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T06:44:06.885Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 6,
-              "Title": "view.cshtml",
-              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\branch\\view.cshtml",
-              "RelativeDocumentMoniker": "Views\\branch\\view.cshtml",
-              "ToolTip": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\branch\\view.cshtml",
-              "RelativeToolTip": "Views\\branch\\view.cshtml",
-              "ViewState": "AgIAAAsAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T07:00:55.374Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "branchViewModel.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Models\\ViewModels\\branchViewModel.cs",
-              "RelativeDocumentMoniker": "Models\\ViewModels\\branchViewModel.cs",
-              "ToolTip": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Models\\ViewModels\\branchViewModel.cs",
-              "RelativeToolTip": "Models\\ViewModels\\branchViewModel.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T06:44:59.234Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 46,
-              "Title": "20241031064858_Initial Migration.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Migrations\\20241031064858_Initial Migration.cs",
-              "RelativeDocumentMoniker": "Migrations\\20241031064858_Initial Migration.cs",
-              "ToolTip": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Migrations\\20241031064858_Initial Migration.cs",
-              "RelativeToolTip": "Migrations\\20241031064858_Initial Migration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T06:48:59.158Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 2,
               "Title": "Create.cshtml",
               "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\watch\\Create.cshtml",
               "RelativeDocumentMoniker": "Views\\watch\\Create.cshtml",
               "ToolTip": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\watch\\Create.cshtml",
               "RelativeToolTip": "Views\\watch\\Create.cshtml",
-              "ViewState": "AgIAAA0AAAAAAAAAAAAowCAAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABYAAAAAAAAAAAAIwC4AAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-30T12:04:16.234Z"
+              "WhenOpened": "2024-10-30T12:04:16.234Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
-              "Title": "package.json",
-              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\package.json",
-              "RelativeDocumentMoniker": "package.json",
-              "ToolTip": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\package.json",
-              "RelativeToolTip": "package.json",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
-              "WhenOpened": "2024-10-31T06:48:20.37Z"
+              "DocumentIndex": 0,
+              "Title": "branchController.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Controllers\\branchController.cs",
+              "RelativeDocumentMoniker": "Controllers\\branchController.cs",
+              "ToolTip": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Controllers\\branchController.cs*",
+              "RelativeToolTip": "Controllers\\branchController.cs*",
+              "ViewState": "AgIAACwAAAAAAAAAAAAcwDIAAAAiAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T06:42:34.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "view.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\branch\\view.cshtml",
+              "RelativeDocumentMoniker": "Views\\branch\\view.cshtml",
+              "ToolTip": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\branch\\view.cshtml",
+              "RelativeToolTip": "Views\\branch\\view.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADAAAABqAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T07:00:55.374Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "watchController.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Controllers\\watchController.cs",
+              "RelativeDocumentMoniker": "Controllers\\watchController.cs",
+              "ToolTip": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Controllers\\watchController.cs",
+              "RelativeToolTip": "Controllers\\watchController.cs",
+              "ViewState": "AgIAAEIAAAAAAAAAAAAIwEQAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T11:36:28.45Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "view.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\watch\\view.cshtml",
+              "RelativeDocumentMoniker": "Views\\watch\\view.cshtml",
+              "ToolTip": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\watch\\view.cshtml",
+              "RelativeToolTip": "Views\\watch\\view.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD4AAABUAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T05:34:52.27Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\watch\\Edit.cshtml",
+              "RelativeDocumentMoniker": "Views\\watch\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\watch\\Edit.cshtml",
+              "RelativeToolTip": "Views\\watch\\Edit.cshtml",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAIwBkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T05:43:15.807Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAowCMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-30T09:01:23.55Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "zone.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Models\\Entities\\zone.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\zone.cs",
+              "ToolTip": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Models\\Entities\\zone.cs",
+              "RelativeToolTip": "Models\\Entities\\zone.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T09:34:21.048Z"
             },
             {
               "$type": "Document",
               "DocumentIndex": 11,
+              "Title": "zoneController.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Controllers\\zoneController.cs",
+              "RelativeDocumentMoniker": "Controllers\\zoneController.cs",
+              "ToolTip": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Controllers\\zoneController.cs",
+              "RelativeToolTip": "Controllers\\zoneController.cs",
+              "ViewState": "AgIAAEcAAADg//////8pwCEAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T09:33:11.271Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "Create.cshtml",
+              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\zone\\Create.cshtml",
+              "RelativeDocumentMoniker": "Views\\zone\\Create.cshtml",
+              "ToolTip": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\zone\\Create.cshtml",
+              "RelativeToolTip": "Views\\zone\\Create.cshtml",
+              "ViewState": "AgIAAAoAAAAAMzMzMzMLwBcAAABPAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-10-31T09:49:34.361Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "zoneViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Models\\ViewModels\\zoneViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\zoneViewModel.cs",
+              "ToolTip": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Models\\ViewModels\\zoneViewModel.cs",
+              "RelativeToolTip": "Models\\ViewModels\\zoneViewModel.cs",
+              "ViewState": "AgIAAAIAAAAgMzMzMzMvwAcAAAAmAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T09:36:09.483Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
               "Title": "ApplicationDbContext.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\data\\ApplicationDbContext.cs",
               "RelativeDocumentMoniker": "data\\ApplicationDbContext.cs",
               "ToolTip": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\data\\ApplicationDbContext.cs",
               "RelativeToolTip": "data\\ApplicationDbContext.cs",
-              "ViewState": "AgIAAAIAAAAgMzMzMzMbwA0AAAAXAAAAAAAAAA==",
+              "ViewState": "AgIAAAIAAAAgMzMzMzMbwA4AAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-10-30T11:38:20.244Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
-              "Title": "20241031064716_Initial Migration.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\BillingPlusSystem\\Migrations\\20241031064716_Initial Migration.cs",
-              "RelativeDocumentMoniker": "..\\..\\BillingPlusSystem\\Migrations\\20241031064716_Initial Migration.cs",
-              "ToolTip": "C:\\Users\\ahmed\\Desktop\\BillingPlusSystem\\Migrations\\20241031064716_Initial Migration.cs",
-              "RelativeToolTip": "..\\..\\BillingPlusSystem\\Migrations\\20241031064716_Initial Migration.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 16,
+              "Title": "branchViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Models\\ViewModels\\branchViewModel.cs",
+              "RelativeDocumentMoniker": "Models\\ViewModels\\branchViewModel.cs",
+              "ToolTip": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Models\\ViewModels\\branchViewModel.cs",
+              "RelativeToolTip": "Models\\ViewModels\\branchViewModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAgAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-31T06:47:16.796Z"
+              "WhenOpened": "2024-10-31T06:44:59.234Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 17,
               "Title": "watch.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Models\\Entities\\watch.cs",
               "RelativeDocumentMoniker": "Models\\Entities\\watch.cs",
@@ -398,7 +448,67 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 19,
+              "Title": "branch.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Models\\Entities\\branch.cs",
+              "RelativeDocumentMoniker": "Models\\Entities\\branch.cs",
+              "ToolTip": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Models\\Entities\\branch.cs",
+              "RelativeToolTip": "Models\\Entities\\branch.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAhAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T06:44:06.885Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-30T11:56:04.632Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 51,
+              "Title": "20241031064858_Initial Migration.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Migrations\\20241031064858_Initial Migration.cs",
+              "RelativeDocumentMoniker": "Migrations\\20241031064858_Initial Migration.cs",
+              "ToolTip": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Migrations\\20241031064858_Initial Migration.cs",
+              "RelativeToolTip": "Migrations\\20241031064858_Initial Migration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T06:48:59.158Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "package.json",
+              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\package.json",
+              "RelativeDocumentMoniker": "package.json",
+              "ToolTip": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\package.json",
+              "RelativeToolTip": "package.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-10-31T06:48:20.37Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "20241031064716_Initial Migration.cs",
+              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\BillingPlusSystem\\Migrations\\20241031064716_Initial Migration.cs",
+              "RelativeDocumentMoniker": "..\\..\\BillingPlusSystem\\Migrations\\20241031064716_Initial Migration.cs",
+              "ToolTip": "C:\\Users\\ahmed\\Desktop\\BillingPlusSystem\\Migrations\\20241031064716_Initial Migration.cs",
+              "RelativeToolTip": "..\\..\\BillingPlusSystem\\Migrations\\20241031064716_Initial Migration.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-10-31T06:47:16.796Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
               "Title": "UiController.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Controllers\\UiController.cs",
               "RelativeDocumentMoniker": "Controllers\\UiController.cs",
@@ -410,19 +520,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
-              "Title": "Edit.cshtml",
-              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\watch\\Edit.cshtml",
-              "RelativeDocumentMoniker": "Views\\watch\\Edit.cshtml",
-              "ToolTip": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\watch\\Edit.cshtml",
-              "RelativeToolTip": "Views\\watch\\Edit.cshtml",
-              "ViewState": "AgIAABIAAAAAAAAAAAAAAAsAAAAkAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-10-31T05:43:15.807Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 23,
               "Title": "20241031052914_Initial Migration.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\BillingPlusSystem\\Migrations\\20241031052914_Initial Migration.cs",
               "RelativeDocumentMoniker": "..\\..\\BillingPlusSystem\\Migrations\\20241031052914_Initial Migration.cs",
@@ -434,7 +532,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 19,
+              "DocumentIndex": 25,
               "Title": "CardsController.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Controllers\\CardsController.cs",
               "RelativeDocumentMoniker": "Controllers\\CardsController.cs",
@@ -446,7 +544,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 24,
               "Title": "AspnetCoreMvcFull.csproj",
               "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\AspnetCoreMvcFull.csproj",
               "RelativeDocumentMoniker": "AspnetCoreMvcFull.csproj",
@@ -458,7 +556,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 20,
+              "DocumentIndex": 26,
               "Title": "LayoutExamplesController.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Controllers\\LayoutExamplesController.cs",
               "RelativeDocumentMoniker": "Controllers\\LayoutExamplesController.cs",
@@ -470,19 +568,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 21,
-              "Title": "Program.cs",
-              "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Program.cs",
-              "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Program.cs",
-              "RelativeToolTip": "Program.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-10-30T09:01:23.55Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 22,
+              "DocumentIndex": 27,
               "Title": "build-config.js",
               "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\build-config.js",
               "RelativeDocumentMoniker": "build-config.js",
@@ -494,7 +580,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 23,
+              "DocumentIndex": 28,
               "Title": "Basic.cshtml",
               "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\Tables\\Basic.cshtml",
               "RelativeDocumentMoniker": "Views\\Tables\\Basic.cshtml",
@@ -506,7 +592,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 24,
+              "DocumentIndex": 29,
               "Title": "TablesController.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Controllers\\TablesController.cs",
               "RelativeDocumentMoniker": "Controllers\\TablesController.cs",
@@ -518,7 +604,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 25,
+              "DocumentIndex": 30,
               "Title": "InputGroups.cshtml",
               "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\Forms\\InputGroups.cshtml",
               "RelativeDocumentMoniker": "Views\\Forms\\InputGroups.cshtml",
@@ -530,7 +616,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 26,
+              "DocumentIndex": 31,
               "Title": "BasicInputs.cshtml",
               "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\Forms\\BasicInputs.cshtml",
               "RelativeDocumentMoniker": "Views\\Forms\\BasicInputs.cshtml",
@@ -542,7 +628,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 27,
+              "DocumentIndex": 32,
               "Title": "WithoutNavbar.cshtml",
               "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\LayoutExamples\\WithoutNavbar.cshtml",
               "RelativeDocumentMoniker": "Views\\LayoutExamples\\WithoutNavbar.cshtml",
@@ -554,7 +640,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 28,
+              "DocumentIndex": 33,
               "Title": "_Variables.cshtml",
               "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\Shared\\Sections\\_Variables.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Sections\\_Variables.cshtml",
@@ -566,7 +652,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 29,
+              "DocumentIndex": 34,
               "Title": "_CommonMasterLayout.cshtml",
               "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\Shared\\_CommonMasterLayout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_CommonMasterLayout.cshtml",
@@ -578,7 +664,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 35,
+              "DocumentIndex": 40,
               "Title": "_Styles.cshtml",
               "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\Shared\\Sections\\_Styles.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Sections\\_Styles.cshtml",
@@ -590,7 +676,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 34,
+              "DocumentIndex": 39,
               "Title": "_ContentNavbarLayout.cshtml",
               "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\Shared\\_ContentNavbarLayout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ContentNavbarLayout.cshtml",
@@ -602,7 +688,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 30,
+              "DocumentIndex": 35,
               "Title": "WithoutMenu.cshtml",
               "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\LayoutExamples\\WithoutMenu.cshtml",
               "RelativeDocumentMoniker": "Views\\LayoutExamples\\WithoutMenu.cshtml",
@@ -614,7 +700,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 33,
+              "DocumentIndex": 38,
               "Title": "_BlankLayout.cshtml",
               "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\Shared\\_BlankLayout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_BlankLayout.cshtml",
@@ -626,7 +712,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 31,
+              "DocumentIndex": 36,
               "Title": "_Navbar.cshtml",
               "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\Shared\\Sections\\Navbar\\_Navbar.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Sections\\Navbar\\_Navbar.cshtml",
@@ -638,7 +724,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 32,
+              "DocumentIndex": 37,
               "Title": "_NavbarPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\Shared\\Sections\\Navbar\\_NavbarPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Sections\\Navbar\\_NavbarPartial.cshtml",
@@ -650,7 +736,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 37,
+              "DocumentIndex": 42,
               "Title": "Fluid.cshtml",
               "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\LayoutExamples\\Fluid.cshtml",
               "RelativeDocumentMoniker": "Views\\LayoutExamples\\Fluid.cshtml",
@@ -662,7 +748,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 36,
+              "DocumentIndex": 41,
               "Title": "_ValidationScriptsPartial.cshtml",
               "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\Shared\\_ValidationScriptsPartial.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_ValidationScriptsPartial.cshtml",
@@ -674,7 +760,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 41,
+              "DocumentIndex": 46,
               "Title": "LoginBasic.cshtml",
               "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\Auth\\LoginBasic.cshtml",
               "RelativeDocumentMoniker": "Views\\Auth\\LoginBasic.cshtml",
@@ -686,7 +772,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 38,
+              "DocumentIndex": 43,
               "Title": "RegisterBasic.cshtml",
               "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\Auth\\RegisterBasic.cshtml",
               "RelativeDocumentMoniker": "Views\\Auth\\RegisterBasic.cshtml",
@@ -698,7 +784,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 40,
+              "DocumentIndex": 45,
               "Title": "Index.cshtml",
               "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\Dashboards\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Dashboards\\Index.cshtml",
@@ -710,7 +796,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 39,
+              "DocumentIndex": 44,
               "Title": "AuthController.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Controllers\\AuthController.cs",
               "RelativeDocumentMoniker": "Controllers\\AuthController.cs",
@@ -722,7 +808,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 42,
+              "DocumentIndex": 47,
               "Title": "DashboardsController.cs",
               "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Controllers\\DashboardsController.cs",
               "RelativeDocumentMoniker": "Controllers\\DashboardsController.cs",
@@ -734,7 +820,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 43,
+              "DocumentIndex": 48,
               "Title": "Horizontal.cshtml",
               "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\FormLayouts\\Horizontal.cshtml",
               "RelativeDocumentMoniker": "Views\\FormLayouts\\Horizontal.cshtml",
@@ -746,7 +832,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 44,
+              "DocumentIndex": 49,
               "Title": "_Scripts.cshtml",
               "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\Shared\\Sections\\_Scripts.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Sections\\_Scripts.cshtml",
@@ -758,7 +844,7 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 45,
+              "DocumentIndex": 50,
               "Title": "_Footer.cshtml",
               "DocumentMoniker": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\Views\\Shared\\Sections\\Footer\\_Footer.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Sections\\Footer\\_Footer.cshtml",

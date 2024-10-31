@@ -48,11 +48,12 @@ namespace AspnetCoreMvcFull.Controllers
         };
         DbContext.watches.Add(newwatch);
         DbContext.SaveChanges();
-        return RedirectToAction("view");
+        return RedirectToAction("create");
       }
       return View();
+
     }
-    [HttpPost("Edit")]
+    [HttpGet("Edit")]
     public IActionResult Edit(int id)
     {
       var watch = DbContext.watches.FirstOrDefault(x => x.Id == id);
@@ -68,7 +69,7 @@ namespace AspnetCoreMvcFull.Controllers
         watch.watchname = model.watchname;
         watch.descr = model.descr;
         DbContext.SaveChanges();
-        return View() ;
+        return RedirectToAction("view");
       }
       return View(model);
     }

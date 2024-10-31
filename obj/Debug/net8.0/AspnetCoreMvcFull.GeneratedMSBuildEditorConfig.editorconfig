@@ -34,6 +34,10 @@ build_metadata.AdditionalFiles.CssScope =
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcYnJhbmNoXENyZWF0ZS5jc2h0bWw=
 build_metadata.AdditionalFiles.CssScope = 
 
+[C:/Users/ahmed/Desktop/New folder (2)/BillingPlusSystem/Views/branch/Edit.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3NcYnJhbmNoXEVkaXQuY3NodG1s
+build_metadata.AdditionalFiles.CssScope = 
+
 [C:/Users/ahmed/Desktop/New folder (2)/BillingPlusSystem/Views/branch/view.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3NcYnJhbmNoXHZpZXcuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
@@ -264,6 +268,10 @@ build_metadata.AdditionalFiles.CssScope =
 
 [C:/Users/ahmed/Desktop/New folder (2)/BillingPlusSystem/Views/watch/view.cshtml]
 build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncd2F0Y2hcdmlldy5jc2h0bWw=
+build_metadata.AdditionalFiles.CssScope = 
+
+[C:/Users/ahmed/Desktop/New folder (2)/BillingPlusSystem/Views/zone/Create.cshtml]
+build_metadata.AdditionalFiles.TargetPath = Vmlld3Ncem9uZVxDcmVhdGUuY3NodG1s
 build_metadata.AdditionalFiles.CssScope = 
 
 [C:/Users/ahmed/Desktop/New folder (2)/BillingPlusSystem/Views/_Partials/_Macros.cshtml]

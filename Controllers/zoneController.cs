@@ -6,12 +6,12 @@ using AspnetCoreMvcFull.Models.ViewModels;
 
 namespace AspnetCoreMvcFull.Controllers
 {
-  [Route("branch")]
-  public class branchController : Controller
+  [Route("zone")]
+  public class zoneController : Controller
   {
     public ApplicationDbContext DbContext { get; }
 
-    public branchController(ApplicationDbContext dbContext)
+    public zoneController(ApplicationDbContext dbContext)
     {
       DbContext = dbContext;
     }
@@ -22,11 +22,11 @@ namespace AspnetCoreMvcFull.Controllers
     {
       return View();
     }
-    [HttpGet("view")]
+    [HttpGet("zone")]
     public async Task<IActionResult> view()
     {
-      var branch = await DbContext.branches.ToListAsync();
-      ViewData["subjects"] = branch;
+      var zone = await DbContext.zones.ToListAsync();
+      ViewData["subjects"] = zone;
       return View();
     }
 
@@ -37,49 +37,52 @@ namespace AspnetCoreMvcFull.Controllers
     }
 
     [HttpPost("create")]
-    public IActionResult Create([FromForm] branchViewModel model)
+    public IActionResult Create([FromForm] zoneViewModel model)
     {
       if (ModelState.IsValid)
       {
-        var newbranch = new branch()
+        var newzone = new zone()
         {
+          zonename = model.zonename,
           branchname = model.branchname,
-          descr = model.descr
+          rate = model.rate
         };
-        DbContext.branches.Add(newbranch);
+        DbContext.zones.Add(newzone);
         DbContext.SaveChanges();
-        return RedirectToAction("create");
+        return View();
       }
       return View();
-    }
-    [HttpGet("Edit")]
-    public IActionResult Edit(int id)
-    {
-      var branch = DbContext.branches.FirstOrDefault(x => x.Id == id);
 
-      return View(branch);
     }
     [HttpPost("Edit")]
-    public IActionResult Edit(branch model)
+    public IActionResult Edit(int id)
+    {
+      var zone = DbContext.zones.FirstOrDefault(x => x.Id == id);
+
+      return View(zone);
+    }
+    [HttpPost("Edit")]
+    public IActionResult Edit(zone model)
     {
       if (ModelState.IsValid)
       {
-        var branch = DbContext.branches.FirstOrDefault(x => x.Id == model.Id);
-        branch.branchname = model.branchname;
-        branch.descr = model.descr;
+        var zone = DbContext.zones.FirstOrDefault(x => x.Id == model.Id);
+        zone.zonename = model.zonename;
+        zone.branchname = model.branchname;
+        zone.rate= model.rate;
         DbContext.SaveChanges();
-        return RedirectToAction("view");
+        return View();
       }
       return View(model);
     }
     [HttpGet("delete/{id}")]
     public ActionResult Delete(int id)
     {
-      var branch = DbContext.branches.FirstOrDefault(a => a.Id == id);
-      if (branch != null)
+      var zone = DbContext.zones.FirstOrDefault(a => a.Id == id);
+      if (zone != null)
       {
 
-        DbContext.branches.Remove(branch);
+        DbContext.zones.Remove(zone);
         DbContext.SaveChanges();
       }
 
@@ -87,4 +90,3 @@ namespace AspnetCoreMvcFull.Controllers
     }
   }
 }
-
