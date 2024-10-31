@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("AspnetCoreMvcFull")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+1c1aa0299976ac1a0cc873cfe3be13a43a1191bc")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+2ac7ce4265cc1e343868a29e9fa55f1b38e14d93")]
 [assembly: System.Reflection.AssemblyProductAttribute("AspnetCoreMvcFull")]
 [assembly: System.Reflection.AssemblyTitleAttribute("AspnetCoreMvcFull")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
