@@ -1,24 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Habiibo Abdi\\Desktop\\WorkShop\\BillingPulusSyetmV1\\BillingPlusSystem\\AspnetCoreMvcFull.csproj": {}
+    "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\AspnetCoreMvcFull.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Habiibo Abdi\\Desktop\\WorkShop\\BillingPulusSyetmV1\\BillingPlusSystem\\AspnetCoreMvcFull.csproj": {
+    "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\AspnetCoreMvcFull.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Habiibo Abdi\\Desktop\\WorkShop\\BillingPulusSyetmV1\\BillingPlusSystem\\AspnetCoreMvcFull.csproj",
+        "projectUniqueName": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\AspnetCoreMvcFull.csproj",
         "projectName": "AspnetCoreMvcFull",
-        "projectPath": "C:\\Users\\Habiibo Abdi\\Desktop\\WorkShop\\BillingPulusSyetmV1\\BillingPlusSystem\\AspnetCoreMvcFull.csproj",
-        "packagesPath": "C:\\Users\\Habiibo Abdi\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Habiibo Abdi\\Desktop\\WorkShop\\BillingPulusSyetmV1\\BillingPlusSystem\\obj\\",
+        "projectPath": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\AspnetCoreMvcFull.csproj",
+        "packagesPath": "C:\\Users\\ahmed\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\ahmed\\Desktop\\New folder (2)\\BillingPlusSystem\\obj\\",
         "projectStyle": "PackageReference",
-        "fallbackFolders": [
-          "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
-        ],
         "configFilePaths": [
-          "C:\\Users\\Habiibo Abdi\\AppData\\Roaming\\NuGet\\NuGet.Config",
-          "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
+          "C:\\Users\\ahmed\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [

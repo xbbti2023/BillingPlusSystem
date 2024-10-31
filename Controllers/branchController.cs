@@ -48,7 +48,7 @@ namespace AspnetCoreMvcFull.Controllers
         };
         DbContext.branches.Add(newbranch);
         DbContext.SaveChanges();
-        return View();
+        return RedirectToAction("view");
       }
       return View();
     }

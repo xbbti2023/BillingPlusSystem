@@ -48,7 +48,7 @@ namespace AspnetCoreMvcFull.Controllers
         };
         DbContext.watches.Add(newwatch);
         DbContext.SaveChanges();
-        return View();
+        return RedirectToAction("view");
       }
       return View();
     }
