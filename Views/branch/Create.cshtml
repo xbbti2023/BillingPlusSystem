@@ -7,9 +7,9 @@
 @section PageScripts {
     <script src="~/js/form-basic-inputs.js"></script>
 }
-@model watchtViewModel
+@model branchViewModel
 <h1>Register Watch Info</h1>
-<form method="post" asp-action="Create" asp-controller="watch">
+<form method="post" asp-action="Create" asp-controller="branch">
 
     <div class="col-12">
         <div class="card">
@@ -17,8 +17,8 @@
             <div class="card-body">
                 <div>
                     <label for="defaultFormControlInput" class="form-label">Watch</label>
-                    <input type="text" class="form-control" asp-for="watchname" id="defaultFormControlInput" placeholder="Watch Name" aria-describedby="defaultFormControlHelp" />
-                    <span asp-validation-for="watchname" class="text-danger"></span>
+                    <input type="text" class="form-control" asp-for="branchname" id="defaultFormControlInput" placeholder="Watch Name" aria-describedby="defaultFormControlHelp" />
+                    <span asp-validation-for="branchname" class="text-danger"></span>
                     <label for="defaultFormControlInput" class="form-label">Describtion</label>
                     <input type="text" class="form-control" asp-for="descr" id="defaultFormControlInput" placeholder="describtion" aria-describedby="defaultFormControlHelp" />
                     <div class="mt-2">
@@ -28,5 +28,5 @@
             </div>
         </div>
     </div>
-    
+
 </form>

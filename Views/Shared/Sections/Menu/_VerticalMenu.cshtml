@@ -56,8 +56,8 @@
             <div>Watch Register</div>
           </a>
         </li>
-                <li class='menu-item@(currentPage == "/LayoutExamples/WithoutNavbar" ? " active" : "")'>
-          <a asp-controller="LayoutExamples" asp-action="WithoutNavbar" class="menu-link">
+                <li class='menu-item@(currentPage == "/branch/Create" ? " active" : "")'>
+                    <a asp-controller="branch" asp-action="Create" class="menu-link">
             <div>Branch Register</div>
           </a>
         </li>
@@ -73,13 +73,13 @@
 
             <ul class="menu-sub">
 
-                <li class='menu-item@(currentPage == "/watch/Create" ? " active" : "")'>
-                    <a asp-controller="watch" asp-action="Create" class="menu-link">
+                <li class='menu-item@(currentPage == "/watch/view" ? " active" : "")'>
+                    <a asp-controller="watch" asp-action="view" class="menu-link">
                         <div>View Watches</div>
                     </a>
                 </li>
                 <li class='menu-item@(currentPage == "/LayoutExamples/WithoutNavbar" ? " active" : "")'>
-                    <a asp-controller="LayoutExamples" asp-action="WithoutNavbar" class="menu-link">
+                    <a asp-controller="branch" asp-action="view" class="menu-link">
                         <div>View Branches</div>
                     </a>
                 </li>

@@ -5,11 +5,25 @@
 namespace AspnetCoreMvcFull.Migrations
 {
     /// <inheritdoc />
-    public partial class InitialMigratin : Migration
+    public partial class InitialMigration : Migration
     {
         /// <inheritdoc />
         protected override void Up(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.CreateTable(
+                name: "branches",
+                columns: table => new
+                {
+                    Id = table.Column<int>(type: "int", nullable: false)
+                        .Annotation("SqlServer:Identity", "1, 1"),
+                    branchname = table.Column<string>(type: "nvarchar(max)", nullable: false),
+                    descr = table.Column<string>(type: "nvarchar(max)", nullable: true)
+                },
+                constraints: table =>
+                {
+                    table.PrimaryKey("PK_branches", x => x.Id);
+                });
+
             migrationBuilder.CreateTable(
                 name: "watches",
                 columns: table => new
@@ -28,6 +42,9 @@ namespace AspnetCoreMvcFull.Migrations
         /// <inheritdoc />
         protected override void Down(MigrationBuilder migrationBuilder)
         {
+            migrationBuilder.DropTable(
+                name: "branches");
+
             migrationBuilder.DropTable(
                 name: "watches");
         }

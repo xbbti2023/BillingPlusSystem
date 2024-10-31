@@ -6,12 +6,12 @@ using AspnetCoreMvcFull.Models.ViewModels;
 
 namespace AspnetCoreMvcFull.Controllers
 {
-  [Route("watch")]
-  public class WatchController : Controller
+  [Route("branch")]
+  public class branchController : Controller
   {
     public ApplicationDbContext DbContext { get; }
 
-    public WatchController(ApplicationDbContext dbContext)
+    public branchController(ApplicationDbContext dbContext)
     {
       DbContext = dbContext;
     }
@@ -25,8 +25,8 @@ namespace AspnetCoreMvcFull.Controllers
     [HttpGet("view")]
     public async Task<IActionResult> view()
     {
-      var watch = await DbContext.watches.ToListAsync();
-      ViewData["subjects"] = watch;
+      var branch = await DbContext.branches.ToListAsync();
+      ViewData["subjects"] = branch;
       return View();
     }
 
@@ -37,16 +37,16 @@ namespace AspnetCoreMvcFull.Controllers
     }
 
     [HttpPost("create")]
-    public IActionResult Create([FromForm] watchtViewModel model)
+    public IActionResult Create([FromForm] branchViewModel model)
     {
       if (ModelState.IsValid)
       {
-        var newwatch = new watch()
+        var newbranch = new branch()
         {
-          watchname = model.watchname,
+          branchname = model.branchname,
           descr = model.descr
         };
-        DbContext.watches.Add(newwatch);
+        DbContext.branches.Add(newbranch);
         DbContext.SaveChanges();
         return View();
       }
@@ -68,18 +68,18 @@ namespace AspnetCoreMvcFull.Controllers
         watch.watchname = model.watchname;
         watch.descr = model.descr;
         DbContext.SaveChanges();
-        return View() ;
+        return View();
       }
       return View(model);
     }
     [HttpGet("delete/{id}")]
     public ActionResult Delete(int id)
     {
-      var watch = DbContext.watches.FirstOrDefault(a => a.Id == id);
-      if (watch != null)
+      var branch = DbContext.branches.FirstOrDefault(a => a.Id == id);
+      if (branch != null)
       {
 
-        DbContext.watches.Remove(watch);
+        DbContext.branches.Remove(branch);
         DbContext.SaveChanges();
       }
 
@@ -87,3 +87,4 @@ namespace AspnetCoreMvcFull.Controllers
     }
   }
 }
+

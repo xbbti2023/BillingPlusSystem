@@ -1,0 +1,36 @@
+@using AspnetCoreMvcFull.Models.Entities
+@using AspnetCoreMvcFull.Models.ViewModels
+@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+    var subjects = ViewData["subjects"] as List<watch>;
+}
+<a asp-action="Create" asp-controller="watch" style="float:right" class="btn btn-secondary"> Add watch</a>
+
+
+<table class="table table-striped">
+    <thead>
+        <tr class="upp">
+            <th>#</th>
+            <th>Watch NAME</th>
+            <th>Describtion</th>
+            <th></th>
+        </tr>
+
+    </thead>
+    <tbody>
+        @if (subjects != null)
+            @foreach (var subject in subjects)
+            {
+                <tr>
+                    <td>@subject.Id</td>
+                    <td>@subject.watchname</td>
+                    <td>@subject.descr</td>
+                    <td><a class="btn btn-primary btn-sm" asp-action="Edit" asp-controller="watch" asp-route-id="@subject.Id">Edit</a><a class="btn btn-danger btn-sm m-2" asp-action="Delete" asp-controller="watch" asp-route-id="@subject.Id        ">X</a> </td>
+                </tr>
+            }
+    </tbody>
+</table>
+
+

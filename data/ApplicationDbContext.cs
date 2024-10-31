@@ -11,5 +11,7 @@ namespace AspnetCoreMvcFull.Data
         }
 
         public DbSet<watch> watches { get; set; }
-    }
+    public DbSet<branch> branches { get; set; }
+
+  }
 }
