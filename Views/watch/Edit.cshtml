@@ -5,18 +5,18 @@
 @{
 }
 @model watch
-<h1>Welcom to Tabaarak worshop 2024</h1>
+<h1>Update The Watch Info</h1>
 <form method="post" asp-action="Edit" asp-controller="watch">
 
     <input type="hidden" class="form-control" asp-for="Id" />
 
     <div class="mt-2">
-        <label>Subject</label>
+        <label>Watch Name</label>
         <input type="text" class="form-control" asp-for="watchname" />
         <span asp-validation-for="watchname" class="text-danger"></span>
     </div>
     <div class="mt-2">
-        <label>Remark</label>
+        <label>Describtion</label>
         <input type="text" class="form-control" asp-for="descr" />
     </div>
     <div class="mt-2">

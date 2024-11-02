@@ -1,0 +1,63 @@
+@using AspnetCoreMvcFull.Models.Entities
+@using AspnetCoreMvcFull.Models.ViewModels
+@{
+    ViewData["Title"] = "watch registration";
+    ViewData["isNavbar"] = false;
+    ViewData["navbarType"] = "layout-navbar-hidden";
+    var branches = ViewData["branches"] as List<Catagory>;
+}
+@section PageScripts {
+    <script src="~/js/form-basic-inputs.js"></script>
+}
+
+@model ExpanseViewModel
+<a asp-action="view" asp-controller="Expanse" style="float:right" class="btn btn-secondary">View Expenses</a>
+<h1>Add Expense</h1>
+<form method="post" asp-action="Create" asp-controller="zone">
+
+    <div class="col-12">
+        <div class="card">
+            <div class="card-body">
+                <div>
+                    <label for="defaultFormControlInput" class="form-label">price</label>
+                    <input type="text" class="form-control" asp-for="money" id="defaultFormControlInput" aria-describedby="defaultFormControlHelp" />
+                    <span asp-validation-for="money" class="text-danger"></span>
+                    <label for="defaultFormControlInput" class="form-label">catagory</label>
+                    <select asp-for="catagory" class="form-control">
+                        <option value="">-- Select catagory --</option>
+                    @if (branches != null)
+                    {
+                        @foreach (var subject in branches)
+                        {
+                                <option value="@subject.cata">@subject.cata</option>
+
+                                
+}
+
+                    }
+                    </select>
+                    <span asp-validation-for="catagory" class="text-danger"></span>
+                    <label for="defaultFormControlInput" class="form-label">Describtion*</label>
+                    <input type="text" class="form-control" asp-for="descr" id="defaultFormControlInput"  aria-describedby="defaultFormControlHelp" />
+                    <span asp-validation-for="descr" class="text-danger"></span>
+                    <div class="mt-2">
+                        <button type="submit" style="float:left" class="btn btn-success">Save</button>
+                        <a asp-action="Create" asp-controller="Expanse" style="margin-left:10px" class="btn btn-secondary">Clear</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</form>
+
+<script>
+    // Clear form fields function
+    function clearForm() {
+        document.getElementById("watchForm").reset();
+    }
+</script>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

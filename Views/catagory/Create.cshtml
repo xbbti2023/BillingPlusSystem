@@ -9,28 +9,27 @@
     <script src="~/js/form-basic-inputs.js"></script>
 }
 
-@model branchViewModel
+@model CatagoryViewModel
 
-<a asp-action="view" asp-controller="branch" style="float: right" class="btn btn-secondary mb-3">View Watches</a>
-<h1>Register branch Info</h1>
+<a asp-action="view" asp-controller="catagory" style="float: right" class="btn btn-secondary mb-3">View Categories</a>
+<h1>Add catagory</h1>
 
-<form method="post" asp-action="Create" asp-controller="branch" id="watchForm">
+<form method="post" asp-action="Create" asp-controller="catagory" id="watchForm">
     <div class="col-12">
         <div class="card">
-            <h5 class="card-header">Default</h5>
             <div class="card-body">
                 <div>
-                    <label for="watchNameInput" class="form-label">Branch</label>
-                    <input type="text" class="form-control" asp-for="branchname" id="watchNameInput" placeholder="Watch Name" />
-                    <span asp-validation-for="branchname" class="text-danger"></span>
+                    <label for="branchNameInput" class="form-label">catagory</label>
+                    <input type="text" class="form-control" asp-for="cata" id="CatagoryInput"/>
+                    <span asp-validation-for="cata" class="text-danger"></span>
 
                     <label for="descrInput" class="form-label mt-3">Description</label>
-                    <input type="text" class="form-control" asp-for="descr" id="descrInput" placeholder="Description" />
+                    <input type="text" class="form-control" asp-for="descr" id="descrInput" />
                     <span asp-validation-for="descr" class="text-danger"></span>
 
                     <div class="mt-3">
                         <button type="submit" class="btn btn-success">Save</button>
-                        <button type="button" class="btn btn-secondary ml-2" onclick="clearForm()">Clear</button>
+                        <a asp-action="Create" asp-controller="catagory" style="margin-left:10px" class="btn btn-secondary">Clear</a>
                     </div>
                 </div>
             </div>
@@ -44,3 +43,7 @@
         document.getElementById("watchForm").reset();
     }
 </script>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

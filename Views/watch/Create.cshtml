@@ -11,10 +11,10 @@
 
 @model watchtViewModel
 
-<a asp-action="view" asp-controller="Watch" style="float: right" class="btn btn-secondary mb-3">View Watches</a>
+<a asp-action="view" asp-controller="watch" style="float: right" class="btn btn-secondary mb-3">View Watches</a>
 <h1>Register Watch Info</h1>
 
-<form method="post" asp-action="Create" asp-controller="Watch" id="watchForm">
+<form method="post" asp-action="Create" asp-controller="watch" id="watchForm">
     <div class="col-12">
         <div class="card">
             <h5 class="card-header">Default</h5>
@@ -30,7 +30,7 @@
 
                     <div class="mt-3">
                         <button type="submit" class="btn btn-success">Save</button>
-                        <button type="button" class="btn btn-secondary ml-2" onclick="clearForm()">Clear</button>
+                        <a asp-action="Create" asp-controller="watch" style="margin-left:10px" class="btn btn-secondary">Clear</a>
                     </div>
                 </div>
             </div>
@@ -44,3 +44,7 @@
         document.getElementById("watchForm").reset();
     }
 </script>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}

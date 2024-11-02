@@ -4,19 +4,19 @@
 *@
 @{
 }
-@model branch
-<h1>Welcom to Tabaarak worshop 2024</h1>
-<form method="post" asp-action="Edit" asp-controller="branch">
+@model Catagory
+<h1>Update Expanse</h1>
+<form method="post" asp-action="Edit" asp-controller="catagory">
 
     <input type="hidden" class="form-control" asp-for="Id" />
 
     <div class="mt-2">
-        <label>Subject</label>
-        <input type="text" class="form-control" asp-for="branchname" />
-        <span asp-validation-for="branchname" class="text-danger"></span>
+        <label>Catagory</label>
+        <input type="text" class="form-control" asp-for="cata" />
+        <span asp-validation-for="cata" class="text-danger"></span>
     </div>
     <div class="mt-2">
-        <label>Remark</label>
+        <label>Describtion</label>
         <input type="text" class="form-control" asp-for="descr" />
     </div>
     <div class="mt-2">

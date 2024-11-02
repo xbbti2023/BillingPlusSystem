@@ -41,6 +41,14 @@ namespace AspnetCoreMvcFull.Controllers
     {
       if (ModelState.IsValid)
       {
+        // Check if watchname already exists
+        bool watchExists = DbContext.watches.Any(w => w.watchname == model.watchname);
+        if (watchExists)
+        {
+          ModelState.AddModelError("watchname", "Watch name already exists. Please choose a different name.");
+          return View(model);
+        }
+
         var newwatch = new watch()
         {
           watchname = model.watchname,
@@ -50,9 +58,9 @@ namespace AspnetCoreMvcFull.Controllers
         DbContext.SaveChanges();
         return RedirectToAction("create");
       }
-      return View();
-
+      return View(model);
     }
+
     [HttpGet("Edit")]
     public IActionResult Edit(int id)
     {
@@ -73,7 +81,7 @@ namespace AspnetCoreMvcFull.Controllers
       }
       return View(model);
     }
-    [HttpGet("delete/{id}")]
+    [HttpGet("Delete")]
     public ActionResult Delete(int id)
     {
       var watch = DbContext.watches.FirstOrDefault(a => a.Id == id);

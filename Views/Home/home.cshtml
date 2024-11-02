@@ -1,0 +1,203 @@
+@{
+    Layout = null;
+}
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Expense Company</title>
+    <!-- Bootstrap CSS -->
+    <link href="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        /* Main background styling */
+        body {
+            background: linear-gradient(135deg, #e0f7fa 25%, #81d4fa 100%);
+            position: relative;
+            overflow-x: hidden;
+            font-family: Arial, sans-serif;
+        }
+
+        /* Background icons */
+        .icon-bg {
+            position: absolute;
+            opacity: 0.08;
+            color: #696cff;
+            font-size: 100px;
+            z-index: 1;
+        }
+
+        .icon-bg1 {
+            top: 100px;
+            left: 50px;
+        }
+
+        .icon-bg2 {
+            bottom: 100px;
+            right: 100px;
+        }
+
+        .icon-bg3 {
+            top: 200px;
+            right: 200px;
+        }
+
+        .icon-bg4 {
+            bottom: 200px;
+            left: 200px;
+        }
+
+        .icon-bg5 {
+            top: 50%;
+            left: 50%;
+            transform: translate(-50%, -50%);
+        }
+
+        /* Company name styling */
+        .company-name {
+            position: absolute;
+            top: 20px;
+            left: 20px;
+            font-weight: bold;
+            font-size: 1.5em;
+            color: #696cff;
+            z-index: 2;
+        }
+
+        /* Center text section styling */
+        .main-content {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            padding: 100px 0;
+            z-index: 2;
+        }
+
+        /* Button styling */
+        .btn-custom-primary, .btn-custom-secondary {
+            padding: 12px 30px;
+            font-size: 1.1em;
+            border-radius: 25px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+        }
+
+        .btn-custom-primary {
+            background-color: #696cff;
+            color: white;
+        }
+
+        .btn-custom-secondary {
+            background-color: white;
+            color: #333;
+            border: 2px solid #ddd;
+        }
+
+            .btn-custom-secondary:hover {
+                background-color: #e1f5fe;
+                color: #333;
+                border-color: #ccc;
+            }
+
+        /* Feature cards styling */
+        .feature-section {
+            background-color: #e0f2f1;
+            padding: 50px 0;
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 20px;
+        }
+
+        .feature-card {
+            background-color: white;
+            border-radius: 15px;
+            padding: 20px;
+            width: 250px;
+            height: 200px;
+            box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+            text-align: center;
+            gap: 10px;
+        }
+
+            .feature-card i {
+                font-size: 2em;
+                color: #696cff;
+            }
+
+            .feature-card h5 {
+                font-weight: bold;
+                color: #696cff;
+            }
+
+            .feature-card p {
+                color: #666;
+                font-size: 0.9em;
+            }
+    </style>
+    <!-- Font Awesome for Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+</head>
+<body>
+    <!-- Decorative Background Icons -->
+    <i class="fas fa-chart-line icon-bg icon-bg1"></i>
+    <i class="fas fa-dollar-sign icon-bg icon-bg2"></i>
+    <i class="fas fa-chart-pie icon-bg icon-bg3"></i>
+    <i class="fas fa-wallet icon-bg icon-bg4"></i>
+    <i class="fas fa-coins icon-bg icon-bg5"></i>
+
+    <!-- Company Name at Top-Left Corner -->
+    <div class="company-name">Expense Company</div>
+
+    <!-- Main Content Section -->
+    <div class="main-content">
+        <!-- Advertising-style Message -->
+        <h1 class="display-4 font-weight-bold">
+            Manage Your Expenses Effectively
+        </h1>
+        <p class="text-muted mt-3">
+            Organize your finances with ease and take control of your spending habits for a better future.
+        </p>
+        <!-- Styled Buttons -->
+        <div class="mt-4">
+            <a asp-action="Index" asp-controller="Dashboards" style="margin-left:10px" class="btn btn-custom-primary mr-3">Sign In</a>
+            <a asp-action="RegisterBasic" asp-controller="auth" style="margin-left:10px" class="btn btn-custom-secondary">Sign Up</a>
+        </div>
+    </div>
+
+    <!-- Feature Cards Section -->
+    <div class="feature-section">
+        <!-- Expense Tracking Card -->
+        <div class="feature-card">
+            <i class="fas fa-chart-line"></i>
+            <h5>Expense Tracking</h5>
+            <p>Monitor expenses in real-time and get insights into your spending.</p>
+        </div>
+        <!-- Financial Reports Card -->
+        <div class="feature-card">
+            <i class="fas fa-file-invoice-dollar"></i>
+            <h5>Financial Reports</h5>
+            <p>Generate detailed reports to make informed financial decisions.</p>
+        </div>
+        <!-- Budget Planning Card -->
+        <div class="feature-card">
+            <i class="fas fa-wallet"></i>
+            <h5>Budget Planning</h5>
+            <p>Set budgets and stay on top of your financial goals with ease.</p>
+        </div>
+        <!-- Data Security Card -->
+        <div class="feature-card">
+            <i class="fas fa-lock"></i>
+            <h5>Data Security</h5>
+            <p>Your information is safe with our top-notch security protocols.</p>
+        </div>
+    </div>
+
+    <!-- Bootstrap JS and dependencies -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+</html>

@@ -1,0 +1,99 @@
+@model AspnetCoreMvcFull.Models.ViewModels.customerViewModel
+@{
+    ViewData["Title"] = "branch Registration";
+    ViewData["isNavbar"] = false;
+    ViewData["navbarType"] = "layout-navbar-hidden";
+}
+
+@section PageScripts {
+    <script src="~/js/form-basic-inputs.js"></script>
+}
+<a asp-action="view" asp-controller="customer" style="float:right" class="btn btn-secondary">view</a>
+<h1>Add Expanse</h1>
+<div class="col-12">
+    <div class="card">
+
+        <div class="card-body">
+            <div>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label asp-for="name"></label>
+        <input asp-for="name" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="phone"></label>
+        <input asp-for="phone" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="email"></label>
+        <input asp-for="email" class="form-control" />
+    </div>
+    <div class="form-group">
+        <label asp-for="watchname"></label>
+        <select asp-for="watchname" class="form-control">
+            <option value="">-- Select Watch --</option>
+            @foreach (var watch in ViewData["watches"] as IEnumerable<AspnetCoreMvcFull.Models.Entities.watch>)
+            {
+                <option value="@watch.watchname">@watch.watchname</option>
+            }
+        </select>
+    </div>
+    <div class="form-group">
+        <label >Branch Name</label>
+        <select asp-for="branchname" class="form-control" id="BranchName">
+            <option value="">-- Select Branch --</option>
+            @foreach (var branch in ViewData["branches"] as IEnumerable<AspnetCoreMvcFull.Models.Entities.Catagory>)
+            {
+                <option value="@branch.cata">@branch.cata</option>
+            }
+        </select>
+    </div>
+    <div class="form-group">
+        <label>Zone Name</label>
+        <select asp-for="zonename" class="form-control" id="ZoneName">
+            <option value="">-- Select Zone --</option>
+        </select>
+    </div>
+                    <button type="submit" style="float:left" class="btn btn-success">Save</button>
+                    <a asp-action="Create" asp-controller="customer" style="margin-left:10px" class="btn btn-secondary">Clear</a>
+</form>
+            </div>
+        </div>
+    </div>
+</div>
+
+@section Scripts {
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script>
+        $(document).ready(function () {
+            $('#BranchName').change(function () {
+                var branchName = $(this).val();
+
+                if (branchName) {
+                    $.ajax({
+                        url: '@Url.Action("GetZonesByBranch", "customer")',
+                        type: 'GET',
+                        data: { branchname1: branchName },
+                        success: function (data) {
+                            var zoneDropdown = $('#ZoneName');
+                            zoneDropdown.empty();
+                            zoneDropdown.append('<option value="">-- Select Zone --</option>');
+                            $.each(data, function (index, item) {
+                                zoneDropdown.append($('<option>', {
+                                    value: item.zonename,
+                                    text: item.zonename
+                                }));
+                            });
+                        },
+                        error: function () {
+                            alert('Error retrieving zones.');
+                        }
+                    });
+                } else {
+                    $('#ZoneName').empty().append('<option value="">-- Select Zone --</option>');
+                }
+            });
+        });
+    </script>
+}

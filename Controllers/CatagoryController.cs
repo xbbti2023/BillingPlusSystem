@@ -6,12 +6,12 @@ using AspnetCoreMvcFull.Models.ViewModels;
 
 namespace AspnetCoreMvcFull.Controllers
 {
-  [Route("branch")]
-  public class branchController : Controller
+  [Route("catagory")]
+  public class CatagoryController : Controller
   {
     public ApplicationDbContext DbContext { get; }
 
-    public branchController(ApplicationDbContext dbContext)
+    public CatagoryController(ApplicationDbContext dbContext)
     {
       DbContext = dbContext;
     }
@@ -25,7 +25,7 @@ namespace AspnetCoreMvcFull.Controllers
     [HttpGet("view")]
     public async Task<IActionResult> view()
     {
-      var branch = await DbContext.branches.ToListAsync();
+      var branch = await DbContext.catagories.ToListAsync();
       ViewData["subjects"] = branch;
       return View();
     }
@@ -37,49 +37,57 @@ namespace AspnetCoreMvcFull.Controllers
     }
 
     [HttpPost("create")]
-    public IActionResult Create([FromForm] branchViewModel model)
+    public IActionResult Create([FromForm] CatagoryViewModel model)
     {
       if (ModelState.IsValid)
       {
-        var newbranch = new branch()
+        // Check if watchname already exists
+        bool branchExists = DbContext.catagories.Any(w => w.cata == model.cata);
+        if (branchExists)
         {
-          branchname = model.branchname,
+          ModelState.AddModelError("cata", "Category already exists. Please choose a different name.");
+          return View(model);
+        }
+
+        var newbranch = new Catagory()
+        {
+          cata = model.cata,
           descr = model.descr
         };
-        DbContext.branches.Add(newbranch);
+        DbContext.catagories.Add(newbranch);
         DbContext.SaveChanges();
         return RedirectToAction("create");
       }
-      return View();
+      return View(model);
     }
     [HttpGet("Edit")]
     public IActionResult Edit(int id)
     {
-      var branch = DbContext.branches.FirstOrDefault(x => x.Id == id);
+      var branch = DbContext.catagories.FirstOrDefault(x => x.Id == id);
 
       return View(branch);
     }
     [HttpPost("Edit")]
-    public IActionResult Edit(branch model)
+    public IActionResult Edit(Catagory model)
     {
       if (ModelState.IsValid)
       {
-        var branch = DbContext.branches.FirstOrDefault(x => x.Id == model.Id);
-        branch.branchname = model.branchname;
+        var branch = DbContext.catagories.FirstOrDefault(x => x.Id == model.Id);
+        branch.cata = model.cata;
         branch.descr = model.descr;
         DbContext.SaveChanges();
         return RedirectToAction("view");
       }
       return View(model);
     }
-    [HttpGet("delete/{id}")]
+    [HttpGet("delete")]
     public ActionResult Delete(int id)
     {
-      var branch = DbContext.branches.FirstOrDefault(a => a.Id == id);
+      var branch = DbContext.catagories.FirstOrDefault(a => a.Id == id);
       if (branch != null)
       {
 
-        DbContext.branches.Remove(branch);
+        DbContext.catagories.Remove(branch);
         DbContext.SaveChanges();
       }
 

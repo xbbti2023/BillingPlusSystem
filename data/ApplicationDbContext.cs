@@ -11,8 +11,11 @@ namespace AspnetCoreMvcFull.Data
         }
 
         public DbSet<watch> watches { get; set; }
-    public DbSet<branch> branches { get; set; }
-    public DbSet<zone> zones { get; set; }
+    public DbSet<Catagory> catagories { get; set; }
+    public DbSet<Expanse> expanses { get; set; }
+    public DbSet<customer> customers { get; set; }
+    public DbSet<auth> auths { get; set; }
+
 
   }
 }
